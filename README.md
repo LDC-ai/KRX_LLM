@@ -53,12 +53,12 @@ KRX_contest
 
 ## 6. 금융 LLM 버전별 학습 방식
 1. **금융 LLM v1**:
-   - 데이터: KRX 금융 보고서 PDF
-   - 학습 방식: PDF 파일을 전처리하지 않고 Prompt-Answer 매핑하여 학습
+   - 데이터: KRX 기본 샘플 데이터
+   - 학습 방식: Prompt-Answer 매핑하여 학습
 
 2. **금융 LLM v2**:
-   - 데이터: KRX 기본 샘플, 금융 보고서, 재무 회계 데이터
-   - 학습 방식: Prompt-Answer 매핑하여 학습
+   - 데이터: KRX 기본 샘플 데이터, 금융 보고서, 재무 회계 데이터
+   - 학습 방식: PDF 파일을 전처리하지 않고 Prompt-Answer 매핑하여 학습
 
 3. **금융 LLM v3**:
    - 데이터: KRX 공홈 보고서 PDF를 JSON으로 변환한 파일 4천개
