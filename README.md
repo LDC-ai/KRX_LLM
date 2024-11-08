@@ -86,3 +86,4 @@ KRX_contest
    - 제외 데이터:
      - KRX 기본 데이터셋
      - KRX 기업 보고서
+     - 최종 모델 허깅페이스 링크 https://huggingface.co/llmflow/krx_Qwen2_7B_Instruct_v6_1
